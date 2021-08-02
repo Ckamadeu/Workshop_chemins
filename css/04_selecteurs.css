@@ -1,0 +1,40 @@
+body{
+   /* background-color: black;
+    color: pink;*/
+   
+    font-size: 25px;
+}
+
+h1{
+    color: pink;
+    /*background-color: black; */
+    }
+section p{
+    color:coral;
+}
+section p:first-child{
+    color:deeppink;
+}
+section p:last-child{
+    color:blue;
+}
+section p:nth-child(even){color:green}
+section p:nth-child(odd){color:yellow}
+section p:nth-child(3),section p:nth-child(10){color:red}
+
+.Zone1 {color:orange ;
+    background-color: tomato;
+}
+/*.lime {color:maroon;*/
+}
+
+#Zone3:before {
+    content:"rajouter avant";
+    background-color: peru;
+}
+    #Zone3:after {content:"rajouter après"
+    }
+.zone4 
+li:nth-child(2) {background-color: purple ;
+    color:white;
+}

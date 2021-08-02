@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+div {
+    width: 90%;
+    max-width: 0 auto;
+    background-color: lightsteelblue;
+}
+.boite {
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background-color: url(../img/siamois.jpg);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    /*taille, style, couleur de la bordure*/
+
+    margin: 2vh;
+    /*propiété suivante à supprimer pour tester !*/
+    float: left;
+    /*
+    effet flottant, permet de placer les balises côte à côte alors que selon le flux du web standard les éléments se placent le suns au-dessus des autres
+    */
+    transition: margin 0.5s;
+}
+.boite:hover {
+    /*la pseudo-classe :hover modifie un affichage au survol de la souris*/
+    margin-top: 20vh;
+}
+.clear {
+    clear:both; /*supprime l'effet flottant*/
+}
+p {
+    background-color: lightblue;
+    /*propriété suivant à tester !/*
+    /*display:inline;*/
+}
+p span { /*sélectionne les span contenus dans les p*/
+background-color: yellow;
+}
